@@ -1,0 +1,12 @@
+﻿@model Actor
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>ActorSearch</h2>
+
+<form asp-controller="Actors" asp-action="ActorSearchResult" method="get">
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" type="text" />
+    <input type="submit" value="Search"/>
+</form>

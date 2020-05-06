@@ -1,0 +1,85 @@
+:root {
+    --top-row-height: 120px;
+    --gutter: 20px;
+    --blue: #00adee;
+    --light-blue: rgba(0, 173, 238, 0.4);
+    --green: #8cc36f;
+    --light-green: rgba(170, 239, 135, 0.8);  
+    --bg-color: rgba(192, 192, 192, 0.1);
+    --subheading: rgba(0, 0, 0, 0.6);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+  }
+  aside{
+    width:200px;
+    position:fixed;
+    color:lightblue;
+    padding-right: 40px;
+    
+  
+  }
+
+  aside a{
+    text-decoration:none;
+    color:lightblue;
+  }
+  aside li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    padding:10px;
+    
+    border-bottom: 1px solid var(--light-blue);
+
+  }
+  
+  main{
+    margin-left: 200px;
+    display:block;
+    position:relative;
+    border-left: 2px solid var(--light-blue);
+    padding-left: 20px;
+
+  }
+  .subheading{
+    Color: rgba(0, 0, 0, 0.6);
+    display:none;
+  }
+  main img{
+    max-width: 100%;
+    padding:10px;
+  }
+  header img{
+    max-height: 100px;
+  }
+  aside img{
+    max-width: 150px;
+    padding-left: 25px; 
+    padding-top: 10px;
+  }
+
+  #what-we-do, #contact-us, #our-work
+  {
+    font-size: 10;
+    display:inline-block;
+    max-width: 30%;
+    margin: 10px;
+    
+    
+  }
+
+  #what-we-do, #our-work
+  {
+    border-right: 1px solid var(--light-green);
+   
+    
+  }
+  h2 {
+    color: #8CC36F;
+   
+  }

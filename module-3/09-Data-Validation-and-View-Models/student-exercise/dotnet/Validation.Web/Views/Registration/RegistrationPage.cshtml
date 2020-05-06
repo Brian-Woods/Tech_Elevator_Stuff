@@ -1,0 +1,35 @@
+﻿@model RegistrationViewModel
+@{
+    ViewData["Title"] = "RegistrationPage";
+}
+
+<h2>RegistrationPage</h2>
+
+<form asp-controller="users" asp-action="" method="get">
+
+    <label asp-for="FirstName"></label>
+    <select asp-for="FirstName"></select>
+    <span asp-validation-for="FirstName"></span>
+
+    <label asp-for="LastName"></label>
+    <select asp-for="LastName"></select>
+    <span asp-validation-for="LastName"></span>
+
+    <label asp-for="Email"></label>
+    <input type="Email" asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Password"></label>
+    <select asp-for="Password"></select>
+    <span asp-validation-for="Password"></span>
+
+    <label asp-for="Birthdate"></label>
+    <select asp-for="Birthdate"></select>
+    <span asp-validation-for="Birthdate"></span>
+
+    <label asp-for="NumTickets"></label>
+    <select asp-for="NumTickets"></select>
+    <span asp-validation-for="NumTickets"></span>
+
+    <input type="submit" value="Validate" />
+</form>

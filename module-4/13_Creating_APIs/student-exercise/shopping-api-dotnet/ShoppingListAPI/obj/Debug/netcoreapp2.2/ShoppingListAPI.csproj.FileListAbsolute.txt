@@ -1,0 +1,16 @@
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\ShoppingListAPI.deps.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\ShoppingListAPI.runtimeconfig.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\ShoppingListAPI.runtimeconfig.dev.json
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\ShoppingListAPI.dll
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\bin\Debug\netcoreapp2.2\ShoppingListAPI.pdb
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.csprojAssemblyReference.cache
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.RazorAssemblyInfo.cache
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.RazorAssemblyInfo.cs
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.AssemblyInfo.cs
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.dll
+C:\Users\Student\workspace\bwoods-c\module-4\13_Creating_APIs\student-exercise\shopping-api-dotnet\ShoppingListAPI\obj\Debug\netcoreapp2.2\ShoppingListAPI.pdb

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Actor>
+@{
+    ViewData["Title"] = "ActorSearchResult";
+}
+
+<h2>ActorSearchResult</h2>
+
+<form asp-controller="Actors" asp-action="ActorSearchResult" method="get">
+    
+
+</form>
+<table class="table table-striped">
+    <tr>
+        <th>name</th>
+    </tr>
+    @foreach(var actor in Model)
+    {
+        <tr>
+            <td>@actor.FirstName @actor.LastName</td>
+        </tr>
+    }
+</table>

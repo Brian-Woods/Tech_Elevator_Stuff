@@ -1,0 +1,25 @@
+﻿@model FilmSearchModel
+@{
+    ViewData["Title"] = "Index";
+    List<string> genres=(List<string>)ViewData["genres"];
+    List<SelectListItem> genreslist = new List<SelectListItem>();
+    foreach(string genre in genres)
+    {
+        genreslist.Add(new SelectListItem() { Text = genre });
+    }
+}
+
+<h2>FilmSearch</h2>
+<form asp-controller="Films" asp-action="SearchResults" method="get">
+    <div>
+        <label asp-for="MinLength"></label>
+        <input type="number" asp-for="MinLength" />
+        <label asp-for="MaxLength"></label>
+        <input type="number" asp-for="MaxLength" />
+        <label asp-for="Genre"></label>
+        <select asp-for="Genre" asp-items="genreslist"></select>
+        <input type="submit" value="search"/>
+
+
+    </div>
+</form>

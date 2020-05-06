@@ -1,0 +1,18 @@
+﻿@model IList<Customer>
+@{
+    ViewData["Title"] = "CustomerSearchResult";
+}
+
+<h2>CustomerSearchResult</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>name</th>
+    </tr>
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@customer.FirstName @customer.LastName</td>
+        </tr>
+    }
+</table>

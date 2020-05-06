@@ -1,0 +1,34 @@
+﻿@model Review
+@{
+    ViewData["Title"] = "newreview";
+}
+
+<h2>New Book Review</h2>
+<body style="font-family: Comic Sans MS; background-color: aquamarine">
+
+<audio autoplay src="~\css\youGotmail.wav" controller="true"  loop autostart="true" type="audio/wav">
+</audio>
+
+<img width="200" src="~/images/squirrels.jpg"/>
+<form asp-controller="Squirrel">
+    <p>
+        <label asp-for="Username"></label>
+        <input asp-for="Username"/>
+    </p>
+    <p>
+        <label asp-for="Rating"></label>
+        <input asp-for="Rating"/>
+    </p>
+    <p>
+        <label asp-for="ReviewTitle"></label>
+        <input asp-for="ReviewTitle"/>
+    </p>
+    <p>
+        <label asp-for="ReviewText"></label>
+        <input asp-for="ReviewText"/>
+    </p>
+    <p>
+        <input type="submit" value="Submit!"/>
+    </p>
+</form>
+</body>

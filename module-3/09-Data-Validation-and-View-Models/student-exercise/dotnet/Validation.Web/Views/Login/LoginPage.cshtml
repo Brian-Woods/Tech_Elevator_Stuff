@@ -1,0 +1,21 @@
+﻿@using System.Security.Cryptography
+@model LoginViewModel
+@{
+    ViewData["Title"] = "LoginPage";
+}
+
+<h2>LoginPage</h2>
+
+<form asp-controller="users" asp-action="LoginPage" method="get">
+
+    <label asp-for="Email"></label>
+    <input type="email" asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+
+    <label asp-for="Password"></label>
+    <select asp-for="Password"></select>
+    <span asp-validation-for="Password"></span>
+
+
+    <input type="submit" value="Validate" />
+</form>
